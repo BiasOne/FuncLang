@@ -361,17 +361,17 @@ public class Evaluator implements Visitor<Value> {
 
 	@Override
 	public Value visit(SwitchExp e, Env env) { // New for funclang.
-		System.out.println("HELLLO FROM THE SWITCH");
-		System.out.println(e.e0());
-//		Object result = e.conditional().accept(this, env);
-//		if(!(result instanceof Value.BoolVal))
-//			return new Value.DynamicError("Condition not a boolean in expression " +  ts.visit(e, env));
-//		Value.BoolVal condition =  (Value.BoolVal) result; //Dynamic checking
-//
-//		if(condition.v())
-//			return (Value) e.then_exp().accept(this, env);
-//		else return (Value) e.else_exp().accept(this, env);
-		return new NumVal(0);
+		Value temp = (Value) e.e0().accept(this, env);
+		int switchval = (int) ((NumVal) temp).v();
+		int switchcond = (e.cases().indexOf(switchval));
+		Exp switchbody;
+		if (switchcond == -1){
+			switchbody = e.default_body();
+		}
+		else{
+			switchbody = e.bodies().get(switchcond);
+		}
+		return (Value) switchbody.accept(this, env);
 	}
 
 	public Value visit(EvalExp e, Env env) {

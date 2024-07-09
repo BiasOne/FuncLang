@@ -583,11 +583,11 @@ public interface AST {
 
 	public static class SwitchExp extends Exp {
 		Exp _e0;
-		List<Exp> _cases;
+		List<Integer> _cases;
 		List<Exp> _bodies;
 		Exp _default_body;
 
-		public SwitchExp(Exp e0, List<Exp> cases, List<Exp> bodies, Exp default_body) {
+		public SwitchExp(Exp e0, List<Integer> cases, List<Exp> bodies, Exp default_body) {
 			_e0 = e0;
 			_cases = cases;
 			_bodies = bodies;
@@ -596,7 +596,7 @@ public interface AST {
 
 		public Exp e0() { return _e0; }
 
-		public List<Exp> cases() { return _cases; }
+		public List<Integer> cases() { return _cases; }
 
 		public List<Exp> bodies() { return _bodies; }
 

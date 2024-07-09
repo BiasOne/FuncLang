@@ -75,11 +75,11 @@ import ListLang; //Import all rules from ListLang grammar.
  		;
 
  switchexp returns [SwitchExp ast]
-     locals [ArrayList<Exp> cases = new ArrayList<Exp>(), ArrayList<Exp> bodies = new ArrayList<Exp>()]:
+     locals [ArrayList<Integer> cases = new ArrayList<Integer>(), ArrayList<Exp> bodies = new ArrayList<Exp>()]:
      '(' 'switch'
         '(' e0=exp ')'
-        '(' 'case' e1=exp e1_body=exp ')' { $cases.add($e1.ast); $bodies.add($e1_body.ast); }
-        ( '(' 'case' e2=exp e2_body=exp ')' { $cases.add($e2.ast); $bodies.add($e2_body.ast); } )*
+        '(' 'case' e1=Number e1_body=exp ')' { $cases.add(Integer.parseInt($e1.text)); $bodies.add($e1_body.ast); }
+        ( '(' 'case' e2=Number e2_body=exp ')' { $cases.add(Integer.parseInt($e2.text)); $bodies.add($e2_body.ast); } )*
         '(' 'default' default_body=exp ')'
         ')' { $ast = new SwitchExp($e0.ast, $cases, $bodies, $default_body.ast); }
      ;

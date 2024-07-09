@@ -702,12 +702,12 @@ public class FuncLangParser extends Parser {
 
 	public static class SwitchexpContext extends ParserRuleContext {
 		public SwitchExp ast;
-		public ArrayList<Exp> cases =  new ArrayList<Exp>();
+		public ArrayList<Integer> cases =  new ArrayList<Integer>();
 		public ArrayList<Exp> bodies =  new ArrayList<Exp>();
 		public ExpContext e0;
-		public ExpContext e1;
+		public Token e1;
 		public ExpContext e1_body;
-		public ExpContext e2;
+		public Token e2;
 		public ExpContext e2_body;
 		public ExpContext default_body;
 		public List<ExpContext> exp() {
@@ -715,6 +715,10 @@ public class FuncLangParser extends Parser {
 		}
 		public ExpContext exp(int i) {
 			return getRuleContext(ExpContext.class,i);
+		}
+		public List<TerminalNode> Number() { return getTokens(FuncLangParser.Number); }
+		public TerminalNode Number(int i) {
+			return getToken(FuncLangParser.Number, i);
 		}
 		public SwitchexpContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -744,12 +748,12 @@ public class FuncLangParser extends Parser {
 			setState(176);
 			match(T__3);
 			setState(177);
-			((SwitchexpContext)_localctx).e1 = exp();
+			((SwitchexpContext)_localctx).e1 = match(Number);
 			setState(178);
 			((SwitchexpContext)_localctx).e1_body = exp();
 			setState(179);
 			match(T__1);
-			 _localctx.cases.add(((SwitchexpContext)_localctx).e1.ast); _localctx.bodies.add(((SwitchexpContext)_localctx).e1_body.ast); 
+			 _localctx.cases.add(Integer.parseInt((((SwitchexpContext)_localctx).e1!=null?((SwitchexpContext)_localctx).e1.getText():null))); _localctx.bodies.add(((SwitchexpContext)_localctx).e1_body.ast); 
 			setState(190);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,3,_ctx);
@@ -762,12 +766,12 @@ public class FuncLangParser extends Parser {
 					setState(182);
 					match(T__3);
 					setState(183);
-					((SwitchexpContext)_localctx).e2 = exp();
+					((SwitchexpContext)_localctx).e2 = match(Number);
 					setState(184);
 					((SwitchexpContext)_localctx).e2_body = exp();
 					setState(185);
 					match(T__1);
-					 _localctx.cases.add(((SwitchexpContext)_localctx).e2.ast); _localctx.bodies.add(((SwitchexpContext)_localctx).e2_body.ast); 
+					 _localctx.cases.add(Integer.parseInt((((SwitchexpContext)_localctx).e2!=null?((SwitchexpContext)_localctx).e2.getText():null))); _localctx.bodies.add(((SwitchexpContext)_localctx).e2_body.ast); 
 					}
 					} 
 				}
@@ -1723,9 +1727,9 @@ public class FuncLangParser extends Parser {
 		"\7\3\2\2\u00a6\u00a7\7\30\2\2\u00a7\u00a8\5\2\2\2\u00a8\u00a9\5\2\2\2"+
 		"\u00a9\u00aa\7\4\2\2\u00aa\u00ab\b\b\1\2\u00ab\17\3\2\2\2\u00ac\u00ad"+
 		"\7\3\2\2\u00ad\u00ae\7\5\2\2\u00ae\u00af\7\3\2\2\u00af\u00b0\5\2\2\2\u00b0"+
-		"\u00b1\7\4\2\2\u00b1\u00b2\7\3\2\2\u00b2\u00b3\7\6\2\2\u00b3\u00b4\5\2"+
+		"\u00b1\7\4\2\2\u00b1\u00b2\7\3\2\2\u00b2\u00b3\7\6\2\2\u00b3\u00b4\7\'"+
 		"\2\2\u00b4\u00b5\5\2\2\2\u00b5\u00b6\7\4\2\2\u00b6\u00c0\b\t\1\2\u00b7"+
-		"\u00b8\7\3\2\2\u00b8\u00b9\7\6\2\2\u00b9\u00ba\5\2\2\2\u00ba\u00bb\5\2"+
+		"\u00b8\7\3\2\2\u00b8\u00b9\7\6\2\2\u00b9\u00ba\7\'\2\2\u00ba\u00bb\5\2"+
 		"\2\2\u00bb\u00bc\7\4\2\2\u00bc\u00bd\b\t\1\2\u00bd\u00bf\3\2\2\2\u00be"+
 		"\u00b7\3\2\2\2\u00bf\u00c2\3\2\2\2\u00c0\u00be\3\2\2\2\u00c0\u00c1\3\2"+
 		"\2\2\u00c1\u00c3\3\2\2\2\u00c2\u00c0\3\2\2\2\u00c3\u00c4\7\3\2\2\u00c4"+
