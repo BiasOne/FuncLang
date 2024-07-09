@@ -371,6 +371,7 @@ public class Evaluator implements Visitor<Value> {
 		else{
 			switchbody = e.bodies().get(switchcond);
 		}
+
 		return (Value) switchbody.accept(this, env);
 	}
 

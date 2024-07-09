@@ -43,7 +43,7 @@ Q4c.
 (if (= (len (list 1 2 3 4 5 6)) 6) #t #f)
 
 
-# test examples
+# Examples
 (define append (lambda (lst1 lst2) (if (null? lst1) lst2 (if (null? lst2) lst1 (cons (car lst1) (append (cdr lst1) lst2))))))
 
 (define factorial (lambda (n) (if (= n 1) 1 (* n (factorial (- n 1))))))
