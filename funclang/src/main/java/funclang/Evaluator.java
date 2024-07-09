@@ -194,7 +194,7 @@ public class Evaluator implements Visitor<Value> {
 			if (!(first.snd() instanceof Null && second.snd() instanceof Null)) {
 				PairVal firstSnd = (PairVal) first.snd();
 				PairVal secondSnd = (PairVal) second.snd();
-				PairValEqual(firstSnd, secondSnd);
+				return PairValEqual(firstSnd, secondSnd);
 			}
 			return true;
 		}
@@ -357,6 +357,21 @@ public class Evaluator implements Visitor<Value> {
 	public Value visit(NullExp e, Env env) {
 		Value val = (Value) e.arg().accept(this, env);
 		return new BoolVal(val instanceof Value.Null);
+	}
+
+	@Override
+	public Value visit(SwitchExp e, Env env) { // New for funclang.
+		System.out.println("HELLLO FROM THE SWITCH");
+		System.out.println(e.e0());
+//		Object result = e.conditional().accept(this, env);
+//		if(!(result instanceof Value.BoolVal))
+//			return new Value.DynamicError("Condition not a boolean in expression " +  ts.visit(e, env));
+//		Value.BoolVal condition =  (Value.BoolVal) result; //Dynamic checking
+//
+//		if(condition.v())
+//			return (Value) e.then_exp().accept(this, env);
+//		else return (Value) e.else_exp().accept(this, env);
+		return new NumVal(0);
 	}
 
 	public Value visit(EvalExp e, Env env) {

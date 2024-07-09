@@ -122,6 +122,12 @@ public class Printer {
 			result += e.else_exp().accept(this, env);
 			return result + ")";
 		}
+
+		// this aint done TODO
+		public String visit(AST.SwitchExp e, Env env) {
+			String result = "(switch ";
+			return result + ")";
+		}
 		
 		public String visit(AST.LessExp e, Env env) {
 			String result = "(< ";

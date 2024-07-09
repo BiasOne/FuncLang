@@ -26,6 +26,7 @@ import ListLang; //Import all rules from ListLang grammar.
         | cons=consexp { $ast = $cons.ast; }
         | list=listexp { $ast = $list.ast; }
         | nl=nullexp { $ast = $nl.ast; }
+        | sw=switchexp { $ast = $sw.ast; }
         ;
 
  lambdaexp returns [LambdaExp ast] 
@@ -72,3 +73,13 @@ import ListLang; //Import all rules from ListLang grammar.
  			e2=exp 
  		')' { $ast = new GreaterExp($e1.ast,$e2.ast); }
  		;
+
+ switchexp returns [SwitchExp ast]
+     locals [ArrayList<Exp> cases = new ArrayList<Exp>(), ArrayList<Exp> bodies = new ArrayList<Exp>()]:
+     '(' 'switch'
+        '(' e0=exp ')'
+        '(' 'case' e1=exp e1_body=exp ')' { $cases.add($e1.ast); $bodies.add($e1_body.ast); }
+        ( '(' 'case' e2=exp e2_body=exp ')' { $cases.add($e2.ast); $bodies.add($e2_body.ast); } )*
+        '(' 'default' default_body=exp ')'
+        ')' { $ast = new SwitchExp($e0.ast, $cases, $bodies, $default_body.ast); }
+     ;

@@ -580,6 +580,35 @@ public interface AST {
 			return visitor.visit(this, env);
 		}
 	}
+
+	public static class SwitchExp extends Exp {
+		Exp _e0;
+		List<Exp> _cases;
+		List<Exp> _bodies;
+		Exp _default_body;
+
+		public SwitchExp(Exp e0, List<Exp> cases, List<Exp> bodies, Exp default_body) {
+			_e0 = e0;
+			_cases = cases;
+			_bodies = bodies;
+			_default_body = default_body;
+		}
+
+		public Exp e0() { return _e0; }
+
+		public List<Exp> cases() { return _cases; }
+
+		public List<Exp> bodies() { return _bodies; }
+
+		public Exp default_body() { return _default_body; }
+
+		public Object accept(Visitor visitor, Env env) {
+			return visitor.visit(this, env);
+		}
+	}
+
+
+
 	
 	public interface Visitor <T> {
 		// This interface should contain a signature for each concrete AST node.
@@ -607,6 +636,8 @@ public interface AST {
 		public T visit(AST.CdrExp e, Env env); // Additional expressions for convenience
 		public T visit(AST.ConsExp e, Env env); // Additional expressions for convenience
 		public T visit(AST.ListExp e, Env env); // Additional expressions for convenience
-		public T visit(AST.NullExp e, Env env); // Additional expressions for convenience
+		public T visit(AST.NullExp e, Env env);
+		public T visit(AST.SwitchExp e, Env env);
+		// Additional expressions for convenience
 	}	
 }

@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f566ff9-51c6-479c-9826-3c4b0fef813c" name="Changes" comment="" />
+    <list default="true" id="8f566ff9-51c6-479c-9826-3c4b0fef813c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/AST$Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/AST$Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/AST.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/AST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Evaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Evaluator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Printer$Formatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Printer$Formatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$AddexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$AddexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$BoolexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$BoolexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CallexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CallexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CarexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CarexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CdrexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$CdrexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ConsexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ConsexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$DefinedeclContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$DefinedeclContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$DivexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$DivexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$EqualexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$EqualexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ExpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ExpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$GreaterexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$GreaterexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$IfexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$IfexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LambdaexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LambdaexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LessexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LessexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LetexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$LetexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ListexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ListexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$MultexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$MultexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$NullexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$NullexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$NumexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$NumexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ProgramContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$ProgramContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$StrexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$StrexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$SubexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$SubexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$VarexpContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser$VarexpContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/parser/FuncLangParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLang.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLang.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/generated-src/antlr/main/funclang/parser/FuncLangParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/antlr/funclang/parser/FuncLang.g" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/antlr/funclang/parser/FuncLang.g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/AST.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/AST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/Evaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/hw4.scm" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/hw4.scm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +65,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/funclang/FuncLang" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -31,11 +80,11 @@
     "Gradle.hw3code.executor": "Run",
     "Gradle.hw3code:funclang [:funclang:Interpreter.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Interpreter">
+  <component name="RunManager" selected="Gradle.hw3code">
     <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funclang.Interpreter" />
       <module name="hw3code.funclang.main" />
