@@ -123,9 +123,16 @@ public class Printer {
 			return result + ")";
 		}
 
-		// this aint done TODO
 		public String visit(AST.SwitchExp e, Env env) {
 			String result = "(switch ";
+			result += e.e0().accept(this, env) + " ";
+
+			for (int i = 0; i < e.bodies().size(); i++) {
+				result += e.bodies().get(i) + " ";;			}
+			for (int i = 0; i < e.cases().size(); i++) {
+				result += e.cases().get(i) + " ";;
+			}
+			result += e.default_body().accept(this, env) + " ";
 			return result + ")";
 		}
 		

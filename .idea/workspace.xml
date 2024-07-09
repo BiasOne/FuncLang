@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f566ff9-51c6-479c-9826-3c4b0fef813c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Evaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/build/classes/java/main/funclang/Evaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/hw4.scm" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/hw4.scm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/test1.scm" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/examples/test1.scm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funclang/src/main/java/funclang/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/funclang/src/main/java/funclang/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
